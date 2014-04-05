@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		      xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:orientation="horizontal"
+              android:layout_height="match_parent"
+              android:background="@drawable/scroll"
+             >
+<WebView
+     		android:id="@+id/webView1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="#440c0c" 
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:layerType="software"/>
+</LinearLayout>
